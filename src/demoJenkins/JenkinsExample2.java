@@ -18,7 +18,7 @@ public class JenkinsExample2 {
 	  System.out.println("Welcome to Jenkins");
 	  System.out.println("This is my Second Jenkins script");
 	  System.setProperty("webdriver.chrome.driver","F:\\Selenium downloads\\chromedriver_win32 (1)\\chromedriver.exe");
-	  
+	  System.out.println("Chrome driver has been set");
   }
   /*@BeforeTest
   public void beforeTest() {
